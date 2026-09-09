@@ -6,8 +6,8 @@ class MiPrueba:
     def ObtenerCodigo(self) -> int:
         return self.__codigo
 
-    # def __str__(self) -> str:
-    #     return f"MiPrueba con codigo {self.__codigo}"
+    def __str__(self) -> str:
+         return f"MiPrueba con codigo {self.__codigo}"
 
 if __name__ == "__main__":
     variableprueba = MiPrueba(111)
