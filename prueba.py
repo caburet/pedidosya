@@ -1,7 +1,7 @@
 class MiPrueba:
     def __init__(self,codigo:int):
         self.__codigo=codigo
-        self.atributopublico=1
+        self.__atributoprivado=1
 
     def ObtenerCodigo(self) -> int:
         return self.__codigo
@@ -12,4 +12,5 @@ class MiPrueba:
 if __name__ == "__main__":
     variableprueba = MiPrueba(111)
     print (variableprueba)
+    print("Hola mundo")
 
